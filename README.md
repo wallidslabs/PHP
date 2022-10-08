@@ -7,7 +7,7 @@
 
 Include Wallids file for  Starter file like to init.php / index.php / head.php
 
-`include "wallids-logger.php";`
+`include "wallids.php";`
 
 Secret key and Monitoring Settings and Run
 
