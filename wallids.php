@@ -59,7 +59,7 @@ function Wallids($secret_key, $monitoring = 'off')
     $infoModel->responseData = "";
     $infoModel->statusCode = 0;
     $infoModel->errorMessage = "";
-
+    $infoModel->isMonitoring = $monitoring;
     $logRequestModel->info = $infoModel;
 
 #region SEND
